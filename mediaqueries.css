@@ -1,0 +1,159 @@
+/* ===== TABLET (max-width: 1024px) ===== */
+@media screen and (max-width: 1024px) {
+  #profile {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 8rem 2rem 3rem;
+  }
+
+  .profile-pic-wrapper {
+    width: 250px;
+    height: 250px;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .section__text__p2 {
+    font-size: 1.3rem;
+  }
+
+  .about-containers {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .details-container {
+    min-width: 100%;
+  }
+
+  .article-container article {
+    width: 100%;
+  }
+
+  .experience-details-container .about-containers {
+    flex-direction: column;
+  }
+
+  section {
+    padding: 3rem 2rem;
+  }
+}
+
+/* ===== MOBILE (max-width: 768px) ===== */
+@media screen and (max-width: 768px) {
+  #desktop-nav {
+    display: none;
+  }
+
+  #hamburger-nav {
+    display: flex;
+  }
+
+  #profile {
+    padding: 7rem 1.5rem 2rem;
+    gap: 1.5rem;
+  }
+
+  .profile-pic-wrapper {
+    width: 200px;
+    height: 200px;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .section__text__p2 {
+    font-size: 1.1rem;
+  }
+
+  .btn-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+  }
+
+  .btn {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  section {
+    padding: 2.5rem 1.5rem;
+  }
+
+  section .title {
+    margin-bottom: 2rem;
+  }
+
+  .about-containers {
+    gap: 1rem;
+  }
+
+  .contact-info-upper-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+  }
+
+  .contact-info-container {
+    width: 100%;
+    justify-content: center;
+  }
+
+  footer {
+    padding: 1.5rem 1rem;
+  }
+
+  footer .nav-links {
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: center;
+  }
+
+  .experience-details-container .about-containers {
+    gap: 1.5rem;
+  }
+
+  .color-container {
+    padding: 1.2rem;
+  }
+
+  .project-img {
+    height: 150px;
+  }
+}
+
+/* ===== SMALL MOBILE (max-width: 480px) ===== */
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 1.7rem;
+  }
+
+  .section__text__p2 {
+    font-size: 1rem;
+  }
+
+  .profile-pic-wrapper {
+    width: 170px;
+    height: 170px;
+  }
+
+  #socials-container a {
+    font-size: 1.5rem;
+  }
+
+  .details-container {
+    padding: 1.5rem;
+  }
+
+  .experience-sub-title {
+    font-size: 1.1rem;
+  }
+
+  .text-container p {
+    font-size: 0.9rem;
+  }
+}
