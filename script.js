@@ -137,7 +137,7 @@ function showNotification(message, type) {
 
 // ===== Typing Effect for Hero =====
 const heroTitle = document.querySelector('.hero-title');
-const titles = ['Web Developer & Designer', 'Frontend Developer', 'UI/UX Enthusiast', 'Problem Solver'];
+const titles = ['Software Developer', ' Web Developer & Designer', 'UI/UX Enthusiast', 'Problem Solver'];
 let titleIndex = 0;
 let charIndex = 0;
 let isDeleting = false;
