@@ -71,8 +71,6 @@ fadeElements.forEach(el => {
 const contactForm = document.getElementById('contact-form');
 
 contactForm.addEventListener('submit', (e) => {
-    e.preventDefault();
-
     const formData = new FormData(contactForm);
     const name = formData.get('name');
     const email = formData.get('email');
@@ -81,13 +79,13 @@ contactForm.addEventListener('submit', (e) => {
 
     // Simple validation
     if (!name || !email || !subject || !message) {
+        e.preventDefault();
         showNotification('Please fill in all fields.', 'error');
         return;
     }
 
-    // Simulate form submission
-    showNotification('Message sent successfully! I\'ll get back to you soon.', 'success');
-    contactForm.reset();
+    // Let the form submit to Formspree
+    showNotification('Sending message...', 'success');
 });
 
 // ===== Notification System =====
